@@ -3,15 +3,15 @@
 use Illuminate\Database\Seeder;
 use App\Groups;
 
-class DatabaseSeeder extends Seeder
+class GroupsSeeder extends Seeder
 {
     /**
-     * Seed the application's database.
+     * Run the database seeds.
      *
      * @return void
      */
     public function run()
     {
-        $this->call(GroupsSeeder::class);
+        factory(Groups::class, 10)->create();
     }
 }
