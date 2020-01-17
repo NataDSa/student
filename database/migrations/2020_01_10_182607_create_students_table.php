@@ -3,6 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
+use App\Groups;
 
 class CreateStudentsTable extends Migration
 {
@@ -19,7 +20,7 @@ class CreateStudentsTable extends Migration
             $table->date('birthday');
             $table->string('img')->nullable();
 
-            $table->integer('group_id')->unsigned();
+            $table->unsigbedbiginteger('group_id');
             $table->foreign('group_id')->references('id')->on('groups')->onDelete('cascade');
             $table->timestamps();
         });
