@@ -12,3 +12,11 @@ $factory->define(Groups::class, function (Faker $faker) {
         'description' => $faker->unique()->word
     ];
 });
+
+$factory->define(Students::class, function (Faker $faker) {
+    $faker = \Faker\Factory::create('ru_Ru');
+    return [
+        'name' => $faker->name,
+        'birthday' => $faker->date
+    ];
+});
