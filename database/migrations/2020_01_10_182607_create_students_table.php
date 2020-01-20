@@ -20,7 +20,7 @@ class CreateStudentsTable extends Migration
             $table->date('birthday');
             $table->string('img')->nullable();
 
-            $table->unsignedBigInteger('gallery_id');
+            $table->unsignedBigInteger('group_id');
             $table->foreign('group_id')->references('id')->on('groups')->onDelete('cascade');
             $table->timestamps();
         });
