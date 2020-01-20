@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Seeder;
 use App\Students;
+use App\Groups;
 
 class StudentsSeeder extends Seeder
 {
