@@ -23,6 +23,15 @@
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "/C/Windows/System32/drivers/etc/HOSTS",
+			"settings":
+			{
+				"buffer_size": 2040,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
 		}
 	],
 	"build_system": "",
@@ -57,6 +66,8 @@
 	},
 	"file_history":
 	[
+		"/C/xamppp/htdocs/blog/vendor/scrivo/highlight.php/tools/.htaccess",
+		"/C/xamppp/php/php.ini",
 		"/C/xamppp/phpMyAdmin/setup/frames/config.inc.php",
 		"/C/Users/wwwwo/Downloads/config.default.php"
 	],
@@ -93,7 +104,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -123,7 +134,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -148,7 +159,35 @@
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 594.0,
+						"translation.y": 108.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Windows/System32/drivers/etc/HOSTS",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2040,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2040,
+								2040
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 828.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
